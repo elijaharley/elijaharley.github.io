@@ -1,7 +1,13 @@
 * {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
   box-sizing: border-box;
   margin: 20px;
-  position: center;
+}
+
+#main {
+  max-width: 600px;
+  margin: 0 auto;
 }
 
 #banner {
@@ -36,7 +42,8 @@ h1 {
   size: 60pt;
   font-family: "Montserrat", sans-serif;
   color: gray;
-  text-align: left;
+  text-align: center;
+  position: relative;
 }
 
 h2 {
@@ -64,4 +71,16 @@ li {
   size: 20pt;
   font-family: "Montserrat", sans-serif;
   color: gray;
+}
+
+footer {
+  position: sticky;
+  padding-top: 100px;
+  padding-bottom: 30px;
+  height: 100px;
+  background-color: white;
+  width: 100%;
+  size: 20pt;
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
 }
