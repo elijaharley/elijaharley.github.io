@@ -52,6 +52,11 @@ h2 {
   color: gray;
 }
 
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  color: teal;
+}
+
 .title {
   font-size: 40pt;
   text-align: center;
@@ -73,13 +78,9 @@ a {
 
 p {
   font-family: 'Montserrat', sans-serif;
-  color: teal;
-  display: inline-block;
-  margin: 30px;
-  object-fit: scale-down;
-  vertical-align: top;
-  margin-left: 0px;
-  margin-top: 50px;
+  font-weight: lighter;
+  font-size: medium;
+  color: black;
 }
 
 li {
